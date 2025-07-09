@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Go Linker",
+  "version": "1.0",
+  "description": "Allow you to make custom short URL redirects.",
+  "permissions": ["storage", "tabs"],
+  "omnibox": {
+    "keyword": "go"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "options_page": "settings/settings.html"
+}

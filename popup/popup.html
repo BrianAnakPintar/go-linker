@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="popup.css" />
+    </head>
+    <body>
+        <div class="title-bar">
+            <h2 class="title">Go-Linker</h2>
+            <button id="settings-button" class="icon-button" title="Settings">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    width="18"
+                    fill="#333"
+                >
+                    <path d="M0 0h24v24H0z" fill="none" />
+                    <path
+                        d="M19.14 12.936a6.962 6.962 0 000-1.872l2.03-1.58a.5.5 0 00.12-.64l-1.922-3.323a.5.5 0 00-.602-.222l-2.39.96a7.001 7.001 0 00-1.62-.942l-.36-2.53A.5.5 0 0014.9 2h-3.8a.5.5 0 00-.497.427l-.36 2.53a7.007 7.007 0 00-1.62.942l-2.39-.96a.5.5 0 00-.602.222L2.71 8.844a.5.5 0 00.12.64l2.03 1.58a6.962 6.962 0 000 1.872l-2.03 1.58a.5.5 0 00-.12.64l1.922 3.323a.5.5 0 00.602.222l2.39-.96c.48.39 1.02.72 1.62.942l.36 2.53a.5.5 0 00.497.427h3.8a.5.5 0 00.497-.427l.36-2.53c.6-.222 1.14-.552 1.62-.942l2.39.96a.5.5 0 00.602-.222l1.922-3.323a.5.5 0 00-.12-.64l-2.03-1.58zM12 15.5a3.5 3.5 0 110-7 3.5 3.5 0 010 7z"
+                    />
+                </svg>
+            </button>
+        </div>
+        <h3 class="label">Current site</h3>
+        <div id="current-site" class="site-url">Loading...</div>
+        <div class="input-group">
+            <label class="label">Go link name</label>
+            <div class="input-wrapper">
+                <span class="input-prefix">go</span>
+                <input
+                    autocomplete="off"
+                    name="customlink"
+                    id="customlink"
+                    class="input with-prefixed-bg"
+                />
+            </div>
+        </div>
+        <p></p>
+        <button id="create-link" class="button">Create link</button>
+        <script src="popup.js"></script>
+    </body>
+</html>
