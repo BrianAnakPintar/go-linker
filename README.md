@@ -29,7 +29,7 @@ just for my self, especially since my bookmarks are full.
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/local-url-shortener.git
+   git clone https://github.com/BrianAnakPintar/go-linker.git
    ```
    
 2. Open Chrome and navigate to chrome://extensions/
