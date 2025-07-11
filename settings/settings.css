@@ -1,0 +1,74 @@
+:root {
+    --blue: #1a73e8;
+    --gray: #f1f3f4;
+    --border: #dadce0;
+    --text: #202124;
+    --link-bg: #ffffff;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: white;
+    color: var(--text);
+    padding: 2rem 4rem;
+    max-width: 900px;
+    margin-inline: auto;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.link-card {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background-color: var(--link-bg);
+    text-decoration: none;
+    color: var(--text);
+    min-width: 140px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.2s ease;
+}
+
+.link-card:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.link-icon {
+    font-size: 1.1rem;
+}
+
+.add-button {
+    margin-top: 2rem;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    background-color: var(--blue);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: #1669c1;
+}
